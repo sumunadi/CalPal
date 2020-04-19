@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">CalPal</string>
+    <string name="action_settings">Settings</string>
+    <string name="calories">Remaining Calories</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <string name="protein_g">Remaining Protein</string>
+    <string name="_1756">1756</string>
+    <string name="_87">87</string>
+    <string name="grams">grams</string>
+    <string name="subtract">Subtract</string>
+    <string name="daily_calorie_intake">Daily Calorie Intake:</string>
+    <string name="daily_protein_intake">Daily Protein Intake:</string>
+    <string name="settings">Settings</string>
+    <string name="calories_hint">Calories</string>
+    <string name="protein_hint">Protein</string>
+    <string name="set_button">Set</string>
+    <string name="button">Button</string>
+    <string name="zero">0</string>
+    <string name="todo">TODO</string>
+    <string name="munadi">Munadi @2020</string>
+
+
+</resources>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingsActivity">
+
+    <TextView
+        android:id="@+id/SettingView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="108dp"
+        android:text="@string/settings"
+        android:fontFamily="sans-serif-black"
+        android:textSize="35sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/settings_Calorie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="36dp"
+        android:text="@string/daily_calorie_intake"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textSize="22sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SettingView" />
+
+    <TextView
+        android:id="@+id/settings_Protein"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="36dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="@string/daily_protein_intake"
+        android:textSize="22sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/settings_Calorie" />
+
+    <EditText
+        android:id="@+id/s_edit_cal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="center"
+        android:fontFamily="sans-serif-condensed-light"
+        android:hint="@string/calories_hint"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/s_edit_prot"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.104"
+        app:layout_constraintStart_toEndOf="@+id/settings_Calorie"
+        app:layout_constraintTop_toBottomOf="@+id/SettingView"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/s_edit_prot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="28dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:gravity="center"
+        android:hint="@string/protein_hint"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.144"
+        app:layout_constraintStart_toEndOf="@+id/settings_Protein"
+        app:layout_constraintTop_toBottomOf="@+id/settings_Calorie"
+        android:autofillHints="" />
+
+    <Button
+        android:id="@+id/setbutton"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="104dp"
+        android:background="@drawable/custom_button"
+        android:fontFamily="sans-serif"
+        android:text="@string/set_button"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="28dp"
+        android:text="@string/munadi"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
