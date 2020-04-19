@@ -1,6 +1,6 @@
 # CalPal Android Application
 
-Simple straightforward Calorie and Protein Tracking app, Calculate your daily Calories and Protein based of your body weight, height, goal to cut, gain or maintain.
+Simple straightforward calorie and protein tracking app, calculate your daily calories and protein based of your body weight, height, goal to cut, gain or maintain.
 
 Every day Set your calories and protein and deduct as you go about your day!
 
@@ -12,4 +12,4 @@ No hassle like other apps to see your daily macros, no need to calculate after e
 
 Repeat, simple but efficient.
 
-Home Screen and Lock Screen Widget Coming soon!
+Home screen and lock screen widget coming soon!
