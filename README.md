@@ -1,4 +1,4 @@
-# CalPal Android Application
+# CalPal Android Application Published On Google Play Store
 
 Simple straightforward calorie and protein tracking app, calculate your daily calories and protein based of your body weight, height, goal to cut, gain or maintain.
 
